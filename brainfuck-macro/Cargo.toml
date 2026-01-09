@@ -1,0 +1,18 @@
+[package]
+name = "brainfuck-macro"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "A procedural macro for executing Brainfuck code at compile time"
+keywords = ["brainfuck", "macro", "compile-time"]
+categories = ["development-tools", "no-std"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1.0"
+syn = { version = "2.0", features = ["full"] }
+proc-macro2 = "1.0"

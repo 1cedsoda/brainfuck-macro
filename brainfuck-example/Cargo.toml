@@ -1,0 +1,12 @@
+[package]
+name = "brainfuck-example"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+publish = false
+
+[dependencies]
+brainfuck-macro = { workspace = true }
+
+[dev-dependencies]
+brainfuck-macro = { workspace = true }
